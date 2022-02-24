@@ -22,12 +22,8 @@ element.style {
 .page-scroll {
     color: white;
 }
-.card, .container, .card-body {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.card, .container, .card-body, .button, .card-title, .card-text {
+  
 }
 #header {
    display: flex;

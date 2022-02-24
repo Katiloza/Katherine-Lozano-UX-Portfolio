@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="362" height="29" viewBox="0 0 362 29">
+  <g id="Song_time" data-name="Song time" transform="translate(-16 -473)">
+    <text id="_3:02" data-name="3:02" transform="translate(16 499)" font-size="14" font-family="Lato-Regular, Lato" letter-spacing="-0.002em"><tspan x="0" y="0">3:02</tspan></text>
+    <text id="_4:29" data-name="4:29" transform="translate(350 499)" font-size="14" font-family="Lato-Regular, Lato" letter-spacing="-0.002em"><tspan x="0" y="0">4:29</tspan></text>
+    <g id="Group_1245" data-name="Group 1245">
+      <rect id="Rectangle_112" data-name="Rectangle 112" width="362" height="3" transform="translate(16 477)"/>
+      <rect id="Rectangle_111" data-name="Rectangle 111" width="230" height="3" transform="translate(16 477)"/>
+      <circle id="Ellipse_16" data-name="Ellipse 16" cx="5.5" cy="5.5" r="5.5" transform="translate(235 473)"/>
+    </g>
+  </g>
+</svg>

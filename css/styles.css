@@ -36,7 +36,8 @@ header {
    padding-right: 15px;
    margin-right: auto;
    margin-left: auto;
-
+   display: table;
+   content: " ";
  }
  .col-lg-12 {
     position: relative;
@@ -49,6 +50,7 @@ header {
     margin-block-end: 0.67em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    font-family: "Lato", "Helvetica Neue",Arial, Helvetica, sans-serif;
  }
 header .intro-text .skills {
     font-size: 1.25em;
@@ -59,6 +61,9 @@ header .intro-text .skills {
     min-height: 1px;
     padding-left: 15px;
     padding-right: 15px;
+ }
+ .text-center {
+     text-align: center;
  }
  .link-btn {
     padding: 15px 40px;
@@ -157,17 +162,52 @@ section.module.parallax {
     background-size: cover;
     text-align: center;
     color: white;
+    display: block;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 900;
 }
 .parallax-2 {
     background-image: url(/images/clothes-cabin-hero.jpg);
 }
 section {
-
     display: block;
 }
 body {
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.1;
     font-size: 15px;
     line-height: 1.42857143;
     background-color: white;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.name {
+    display: block;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 700;
+    margin: 100px auto 10px auto;
+}
+.skills {
+    font-size: 1.25em;
+    font-weight: 500;
+}
+section.module.parallax-1 {
+    background-image: url(/images/doi-hero-image.jpg);
+    height: 700px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+.footer,.text-center, .form-group {
+    
+}
+form {
+    width: 500px;
+    text-align: center;
 }

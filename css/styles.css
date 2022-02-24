@@ -1,6 +1,10 @@
 element.style {
     height: 1px;
 }
+.navbar-brand {
+    position: relative;
+    left: auto;
+}
 
 .navbar-default .navbar-collapse, .navbar-default  {
     border-color: transparent;
@@ -18,10 +22,17 @@ element.style {
 .page-scroll {
     color: white;
 }
-.row {
-    max-height: 698px;
-    max-width: 700px;
+.card, .container, .card-body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+#header {
+   display: flex;
+}
+
 .navbar-toggle .icon-bar + .icon-bar{
     margin-top: 4px;
 }
@@ -31,11 +42,42 @@ element.style {
     height: 2px;
     border-radius: 1px;
 }
-
-img {
+.image-hero {
     max-width: 100%;
-    height: auto;
+    height: 460px;
 }
 header {
    padding: auto; 
 }
+.container {
+  
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+  }
+.change .bar2 {
+    opacity: 0;
+  }
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+  }  
+.logo-image {
+    width: 35px;
+    height: 35px;
+}
+.nav-link {
+    color: white;
+    font-family: bely, serif;
+}
+    

@@ -24,7 +24,7 @@ header {
     height: 100vh;
     text-align: center;
     color: black;
-    background-image: url(/images/hero-image-ux-portfolio.jpg);
+    background-image: url(/images/hero-image-portfolio-01.jpg);
     background-size: cover;
 }
 
@@ -44,6 +44,8 @@ header {
     min-height: 1px;
     padding-left: 15px;
     padding-right: 15px;
+    text-align: center;
+    grid-column-start: 
  }
  h1 {
     margin-block-start: 0.67em;
@@ -63,7 +65,7 @@ header .intro-text .skills {
     padding-right: 15px;
  }
  .text-center {
-     text-align: center;
+    text-align: left;
  }
  .link-btn {
     padding: 15px 40px;
@@ -190,13 +192,14 @@ body {
     font-size: 2em;
     font-weight: 700;
     margin: 100px auto 10px auto;
+    color: black;
 }
 .skills {
     font-size: 1.25em;
     font-weight: 500;
 }
 section.module.parallax-1 {
-    background-image: url(/images/doi-hero-image.jpg);
+    background-image: url(/images/doi-image-hero.jpg);
     height: 700px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -204,10 +207,23 @@ section.module.parallax-1 {
     background-size: cover;
     text-align: center;
 }
-.footer,.text-center, .form-group {
-    
+.footer-above, .text-center, .form-group {
+    width: 500px;
+    text-align: center;
+    margin: auto;
+}
+.footer-above {
+    background-color: #E39B75;
+    width: 681px;
+    height: 661px;
+}
+.form-group .text-center {
+    text-align: left;
+    width: 681px;
+    height: 661px;
 }
 form {
-    width: 500px;
+    width: 681px;
+    height: 2661px;
     text-align: center;
 }

@@ -453,3 +453,13 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+
+.intro {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+/* adds the box shadow around img */
+.intro__img {
+    box-shadow: var(--bs);
+}
+

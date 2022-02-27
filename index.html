@@ -5,9 +5,10 @@
     <!-- makes the webpages more responsive on mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://use.typekit.net/jxc3tiy.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
     <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/53ea86b8c3.js" crossorigin="anonymous"></script>
 
     <title>Katherine Lozano's UX Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
@@ -35,7 +36,7 @@
               <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
                   <li class="nav__item"><a href="#services" class="nav__link">My Work</a></li>
                   <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
-                  <li class="nav__item"><a href="#contact" class="nav__link">Contact Me</a></li>
+                  <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                   <li class="nav__item"><a href="#casestudy" class="nav__link">Latest Projects</a></li>
             </ul>
         </nav>
@@ -44,10 +45,11 @@
       <!-- Introduction -->
       <section class="intro" id="home">
         <h1 class="section__title section__title--intro">
-          Hi, I am <strong>Katherine Lozano</strong>
+          Hi, I am 
+          <strong id="name">Katherine Lozano</strong>
         </h1>
-        <p class="section__subtitle section__subtitle--intro">Jr. UX/UI Designer.Researcher.<em>Storyteller</em></p>
-          <img src="/images/2x/Asset 1@2x-100.jpg" alt="UI design graphic">
+        <p class="section__subtitle section__subtitle--intro"><em>UX/UI Designer</em></p>
+          <img src="/images/SVG/Asset 1.svg" alt="UI design graphic" class="intro__img">
       </section>
 
 <!-- My Work -->
@@ -55,7 +57,7 @@
         <h2 class="section__title section__title--services">What I do</h2>
         <div class="services">
           <div class="service">
-            <h3>UI Design + Front-end Development</h3>
+            <h3>UI Design + Front-End Development</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div> <!-- /service   -->
 
@@ -65,55 +67,96 @@
           </div> <!-- /service   -->
           
           <div class="service">
-            <h3>Visual + Interaction Design</h3>
+            <h3>Prototyping + Interaction Design</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div> <!-- /service   -->
 
         </div> <!-- /services   -->
-        <a href="#services" class="btn">My Work</a>
+
+        <!-- button -->
+        <a href="#" class="btn">My Work</a>
       </section>
+
       <!-- About Me Section on homepage -->
       <section class="about-me" id="about">
         <h2 class="section__title section__title--about">Who I am</h2>
-        <p class="section__subtitle section__subtitle--about"></p>
+        <p class="section__subtitle section__subtitle--about">Web & App Designer based out of AZ</p>
 
         <div class="about-me__body">
-          <p></p>
-          <p></p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
         <!-- Portrait -->
-        <img src="/images/kat-portrait.jpg" alt="Katherine Lozano Portrait">
+        <img src="/images/kat-portrait.jpg" alt="Katherine Lozano Portrait" class="about-me__img">
       </section>
 
       <!-- My Work -->
       <section class="my-work" id="work">
-        <h2 class="section__title">My Work</h2>
-        <p class="section__subtitle"></p>
+        <h2 class="section__title section__title--work">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">Scope of My Projects</p>
 
         <div class="portfolio">
           <!-- Portfolio item 01 -->
           <a href="#" class="portfolio__item">
-            <img src="/images/clothescabin-mockup.jpg" alt="Lap top on a counter showcasing web project" class="portfolio__img">
+            <img src="/images/portfolio-img1.jpg" alt="" class="portfolio__img">
         </a>
         
         <!-- Portfolio item 02 -->
         <a href="#" class="portfolio__item">
-            <img src="/images/growth-iphone-mockup.jpg" alt="Iphone showcasing an app" class="portfolio__img">
+            <img src="/images/portfolio-img2.jpg" alt="" class="portfolio__img">
         </a>
         
         <!-- Portfolio item 03 -->
         <a href="#" class="portfolio__item">
-            <img src="/images/doi-image-hero.jpg" alt="Mountain desert showcasing government project" class="portfolio__img">
+            <img src="/images/portfolio-img3.jpg" alt="" class="portfolio__img">
         </a>
+
+        <!-- Portfolio item 04 -->
+        <a href="#" class="portfolio__item">
+          <img src="/images/portfolio-img4.jpg" alt="" class="portfolio__img">
+      </a>
+      
+      <!-- Portfolio item 05 -->
+      <a href="#" class="portfolio__item">
+          <img src="/images/my-work-img1.png" alt="" class="portfolio__img">
+      </a>
+      
+      <!-- Portfolio item 06 -->
+      <a href="#" class="portfolio__item">
+          <img src="/images/my-work-img5.png" alt="" class="portfolio__img">
+      </a>
+
+      <!-- Portfolio item 07 -->
+      <a href="#" class="portfolio__item">
+        <img src="/images/portfolio-img5.jpg" alt="" class="portfolio__img">
+    </a>
+    
+    <!-- Portfolio item 08 -->
+    <a href="#" class="portfolio__item">
+        <img src="/images/portfolio-img6.jpg" alt="" class="portfolio__img">
+    </a>
         </div>
       </section>
 
       <!-- Footer -->
-      <footer>
+      <footer class="footer">
         <a href="katherinelozano4@gmail.com" class="footer__link">Get in Touch About a Project</a>
         <ul class="social-list">
-          <li class="social-list__link"><a class="social-list__link"></a></li>
-          <li class="social-list__link"><a class="social-list__link"></a></li>
+          <li class="social-list__item">
+            <a class="social-list__link" href="https://github.com">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a class="social-list__link" href="https://www.linkedin.com/">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a class="social-list__link" href="https://twitter.com">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+        </li>
         </ul>
       </footer>
   </body>

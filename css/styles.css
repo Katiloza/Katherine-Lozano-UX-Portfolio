@@ -131,10 +131,11 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 1em;
+    background: var(--clr-accent);
 }
 
 .logo {
-    max-width: 100px;
+    max-width: 50px;
 }
 
 .nav {
@@ -210,18 +211,20 @@ header {
 }
 
 .hamburger {
-    background: var(--clr-accent);
+    background: var(--clr-light);
     width: 2em;
     height: 3px;
     border-radius: 1em;
     display: block;
     position: relative;
+    margin: 0 auto;
+    margin-top: 0.5em;
 }
 
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-    background: var(--clr-accent);
+    background: var(--clr-light);
     width: 2em;
     height: 3px;
     border-radius: 1em;
@@ -436,4 +439,17 @@ header {
 .social-list__item {
     margin: 0 .5em;
 
+}
+
+/* Individual Portfolio Item */
+.portfolio-item-individual {
+    padding: 0 2em 2em;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.portfolio-item-individual {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }

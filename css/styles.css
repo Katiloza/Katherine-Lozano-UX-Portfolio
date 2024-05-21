@@ -13,7 +13,7 @@
 
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-accent: #15F5BA;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -21,6 +21,15 @@
     --fs-body: 1rem;
 
     --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25), 0.125em 0.125em 0.25em rgba(0,0,0,.15);
+    /* Typography */
+
+    h1, h2, h3 {
+        line-height: 1.1;
+        margin: 0;
+    }
+    h1 { font-size: var(--fs-h1) }
+    h2 { font-size: var(--fs-h2) }
+    h3 { font-size: var(--fs-h3) }
 }
 
 @media (min-width: 800px) {
@@ -78,16 +87,7 @@ strong {
     transition: transform 200ms ease-in-out;  
 }
 
-/* Typography */
 
-h1, h2, h3 {
-    line-height: 1.1;
-    margin: 0;
-}
-
-h1 { font-size: var(--fs-h1) }
-h2 { font-size: var(--fs-h2) }
-h3 { font-size: var(--fs-h3) }
 
 /* Intro Section */
 
@@ -136,9 +136,6 @@ header {
     background-color: var(--clr-accent);
 }
 
-.logo {
-    max-width: 50px;
-}
 
 .nav {
     position: fixed;
@@ -275,99 +272,9 @@ header {
 }
 
 
-/* My Services */
-.my--work {
-    background-color: var(--clr-dark);
-    background-image: url(../images/services-img.png);
-    background-size: cover;
-    background-blend-mode: multiply;
-    /* background-blend-mode: multiply; for darkening up the background img */
-    color: var(--clr-light);
-    text-align: center;
-}
+/*UX Projects*/
 
-.section__title--services {
-    color: var(--clr-accent);
-    position: relative;
-}
-.section__title--services::after {
-    /* for psuedoline under title */
-    content: '';
-    display: block;
-    width: 3em;
-    height: 1px;
-    margin: 0.5em auto 1em;
-    background: var(--clr-light);
-    opacity: 0.25;
-}
-
-.services {
-    margin-bottom: 4em;
-}
-
-/* makes the text on bigger screens look even */
-.service {
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-@media (min-width: 800px) {
-    .services {
-        display: flex;
-        max-width: 1000px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .service + .service {
-        /* makes the text no loger touch */
-        margin-left: 2em;
-    }
-}
-/* About Me */
-.about-me {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.about-me__img {
-    box-shadow: var(--bs);
-}
-
-@media (min-width: 600px) {
-    .about-me {
-        display: grid;
-        grid-template-columns: 1fr 200px;
-        grid-template-areas: 
-            "title img"
-            "subtitle img"
-            "text img";
-        grid-column-gap: 2em;
-    }
-
-    .section__title--about  {
-        grid-area: title;
-    }
-
-    .section__subtitle--about {
-        grid-column: 1/-1;
-        grid-row: 2;
-        position: relative;
-        left: -1em;
-        width: calc(100% + 2em);
-        padding-left: 1em;
-        padding-right: calc(200px + 4em);
-    }
-
-    .about-me__img {
-       grid-area: img;
-       position: relative;
-       z-index: 2;
-    }
-}
-
-/* My Work */
-
-.my-work {
+.ux-projects {
     background-color: var(--clr-dark);
     color: var(--clr-light);
     text-align: center;

@@ -98,16 +98,15 @@ strong {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 1em;
+    padding: 2em;
     background-color: var(--nav-main);
-    
 }
 
 
 .nav {
     position: fixed;
-    background: var(--clr-dark);
-    color: var(--clr-light);
+    background: var(--nav-main);
+    color: var(--nav-accent);
     top: 0;
     bottom: 0;
     left: 0;
@@ -137,11 +136,11 @@ header {
 }
 
 .nav__link:hover {
-    color: var(--clr-accent);
+    color: var(--nav-accent);
 }
 
 .nav__link:hover {
-    color: var(--clr-accent);
+    color: var(--nav-accent);
 
 }
 
@@ -186,7 +185,7 @@ header {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-    background: var(--clr-light);
+    background: var(--nav-accent);
     width: 2em;
     height: 3px;
     border-radius: 1em;
@@ -242,7 +241,7 @@ header {
 /*UX Projects*/
 
 .ux-projects {
-    background-color: var(--clr-dark);
+    background-color: var(--nav-accent);
     color: var(--clr-light);
     text-align: center;
 }
@@ -275,10 +274,11 @@ header {
 
 .footer {
     background: #111;
-    color: var(--clr-accent);
+    color: var(--clr-light);
     text-align: center;
     padding: 2.5em 0;
     font-size: var(--fs-h3);
+    background-color: #211951;
 }
 
 .footer a{

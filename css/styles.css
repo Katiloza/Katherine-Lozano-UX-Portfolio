@@ -14,6 +14,8 @@
     --clr-light: #fff;
     --clr-dark: #303030;
     --clr-accent: #15F5BA;
+    --nav-main: #211951;
+    --nav-accent: #836FFF;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -91,53 +93,14 @@ strong {
     transition: transform 200ms ease-in-out;  
 }
 
-
-
-/* Intro Section */
-
-.section__title {
-    margin-bottom: .25em;
-}
-
-.section__title--intro {
-    font-weight: var(--fw-reg);
-}
-/* Keeps 'Katherine Lozano' bold */
-.strong {
-    font-weight: var(--fw-bold);
-}
-#name {
-    font-weight: var(--fw-bold);
-}
-.section__title--intro strong {
-    display: block;
-}
-.section__subtitle {
-    margin: 0;
-    font-size: var(--fs-h3);
-}
-
-.section__subtitle--intro,
-.section__subtitle--about {
-    background: var(--clr-accent);
-    padding: .25em 1em;
-    font-family: var(--ff-secondary);
-    margin-bottom: 1em;
-}
-
-.section__subtitle--work {
-    color: var(--clr-accent);
-    font-weight: var(--fw-bold);
-    margin-bottom: 1em;
-}
-
 /* Header */
 
 header {
     display: flex;
     justify-content: space-between;
     padding: 1em;
-    background-color: var(--clr-accent);
+    background-color: var(--nav-main);
+    
 }
 
 
